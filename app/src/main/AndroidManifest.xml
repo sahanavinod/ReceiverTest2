@@ -19,9 +19,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Database"></activity>
         <activity
             android:name=".tvImageActivity"
-            android:banner="@drawable/soham_sit"
+            android:banner="@drawable/waterfall"
             android:label="@string/img_soham"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.Leanback"

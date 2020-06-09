@@ -27,15 +27,18 @@ public class tvImageActivity extends FragmentActivity {
     private boolean exit = false;
     private static final String TAG = "TVImageActivity";
     private final long MILLIS_TO_SECS = 1000;
+
+    private Database db = new Database(this);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tv);
         iView = (ImageView) findViewById(R.id.show_img);
         imageArray = new int[3];
-        imageArray[0] = R.drawable.soham_sit;
-        imageArray[1] = R.drawable.soham_kneel;
-        imageArray[2] = R.drawable.soham_fruit;
+        imageArray[0] = R.drawable.waterfall;
+        imageArray[1] = R.drawable.flags;
+        imageArray[2] = R.drawable.glassart;
         startIndex = 0;
         endIndex = 2;
         prevIndex = -1;
