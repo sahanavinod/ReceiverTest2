@@ -37,7 +37,7 @@ public class tvImageActivity extends FragmentActivity {
         iView = (ImageView) findViewById(R.id.show_img);
         imageArray = new int[3];
         imageArray[0] = R.drawable.waterfall;
-        imageArray[1] = R.drawable.flags;
+        imageArray[1] = R.drawable.dates;
         imageArray[2] = R.drawable.glassart;
         startIndex = 0;
         endIndex = 2;
